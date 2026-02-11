@@ -41,3 +41,140 @@
 [2026-02-12 01:15:11,849: INFO: common : created directory at: artifacts/data_ingestion]
 [2026-02-12 01:15:15,436: INFO: data_ingestion : File is downloaded]
 [2026-02-12 01:15:15,720: INFO: main : Stage Data Ingestion stage Completed]
+[2026-02-12 01:31:00,100: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 01:31:00,108: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 01:31:00,113: INFO: common : created directory at: artifacts]
+[2026-02-12 01:31:00,115: INFO: common : created directory at: artifacts/data_ingestion]
+[2026-02-12 01:31:00,117: INFO: 1337268052 : File already exits]
+[2026-02-12 01:31:33,188: INFO: main : stage Data Ingestion stage initiated]
+[2026-02-12 01:31:33,194: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 01:31:33,194: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 01:31:33,194: INFO: common : created directory at: artifacts]
+[2026-02-12 01:31:33,194: INFO: common : created directory at: artifacts/data_ingestion]
+[2026-02-12 01:31:33,194: INFO: data_ingestion : File already exits]
+[2026-02-12 01:31:33,360: INFO: main : Stage Data Ingestion stage Completed]
+[2026-02-12 02:00:25,128: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:00:25,131: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:00:25,134: INFO: common : created directory at: artifacts]
+[2026-02-12 02:00:25,136: INFO: common : created directory at: artifacts/data_transformation]
+[2026-02-12 02:00:25,703: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:00:25,710: WARNING: _http : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.]
+[2026-02-12 02:00:25,744: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:25,783: INFO: _client : HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:26,326: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:00:26,366: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:26,473: INFO: _client : HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:26,841: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-02-12 02:00:27,139: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:27,411: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/spiece.model "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:00:27,447: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/spiece.model "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:27,489: INFO: _client : HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/spiece.model "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:27,894: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer.json "HTTP/1.1 404 Not Found"]
+[2026-02-12 02:00:28,164: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"]
+[2026-02-12 02:00:28,444: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:00:28,480: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/special_tokens_map.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:28,526: INFO: _client : HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/special_tokens_map.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:28,799: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"]
+[2026-02-12 02:00:46,763: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:00:46,770: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:00:46,774: INFO: common : created directory at: artifacts]
+[2026-02-12 02:00:46,779: INFO: common : created directory at: artifacts/data_transformation]
+[2026-02-12 02:00:47,136: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:00:47,173: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:47,448: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:00:47,479: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:00:47,763: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-02-12 02:00:48,035: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-02-12 02:01:27,345: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:01:27,352: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:01:27,353: INFO: common : created directory at: artifacts]
+[2026-02-12 02:01:27,357: INFO: common : created directory at: artifacts/data_transformation]
+[2026-02-12 02:01:27,792: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:01:27,824: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:01:28,126: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:01:28,189: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:01:28,480: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-02-12 02:01:28,744: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-02-12 02:19:56,556: INFO: main : stage Data Ingestion stage initiated]
+[2026-02-12 02:19:56,556: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:19:56,561: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:19:56,561: INFO: common : created directory at: artifacts]
+[2026-02-12 02:19:56,561: INFO: common : created directory at: artifacts/data_ingestion]
+[2026-02-12 02:19:56,561: INFO: data_ingestion : File already exits]
+[2026-02-12 02:19:56,663: ERROR: main : [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummrizer\main.py", line 10, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "D:\MLOPS\TextSummrizer\src\TextSummarizer\pipeline\stage_1_data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion.extract_zip_file()
+  File "D:\MLOPS\TextSummrizer\src\TextSummarizer\components\data_ingestion.py", line 30, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\zipfile.py", line 1634, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\zipfile.py", line 1688, in _extract_member
+    open(targetpath, "wb") as target:
+OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow'
+[2026-02-12 02:20:24,077: INFO: main : stage Data Ingestion stage initiated]
+[2026-02-12 02:20:24,077: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:20:24,077: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:20:24,077: INFO: common : created directory at: artifacts]
+[2026-02-12 02:20:24,077: INFO: common : created directory at: artifacts/data_ingestion]
+[2026-02-12 02:20:24,077: INFO: data_ingestion : File already exits]
+[2026-02-12 02:20:24,165: ERROR: main : [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummrizer\main.py", line 10, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "D:\MLOPS\TextSummrizer\src\TextSummarizer\pipeline\stage_1_data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion.extract_zip_file()
+  File "D:\MLOPS\TextSummrizer\src\TextSummarizer\components\data_ingestion.py", line 30, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\zipfile.py", line 1634, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\zipfile.py", line 1688, in _extract_member
+    open(targetpath, "wb") as target:
+OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow'
+[2026-02-12 02:23:17,787: INFO: main : stage Data Ingestion stage initiated]
+[2026-02-12 02:23:17,787: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:23:17,787: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:23:17,787: INFO: common : created directory at: artifacts]
+[2026-02-12 02:23:17,787: INFO: common : created directory at: artifacts/data_ingestion]
+[2026-02-12 02:23:17,787: INFO: data_ingestion : File already exits]
+[2026-02-12 02:23:17,881: ERROR: main : [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummrizer\main.py", line 10, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "D:\MLOPS\TextSummrizer\src\TextSummarizer\pipeline\stage_1_data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion.extract_zip_file()
+  File "D:\MLOPS\TextSummrizer\src\TextSummarizer\components\data_ingestion.py", line 30, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\zipfile.py", line 1634, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\zipfile.py", line 1688, in _extract_member
+    open(targetpath, "wb") as target:
+OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow'
+[2026-02-12 02:23:56,723: INFO: main : stage Data Ingestion stage initiated]
+[2026-02-12 02:23:56,723: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:23:56,723: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:23:56,723: INFO: common : created directory at: artifacts]
+[2026-02-12 02:23:56,723: INFO: common : created directory at: artifacts/data_ingestion]
+[2026-02-12 02:23:57,627: INFO: data_ingestion : File is downloaded]
+[2026-02-12 02:23:57,820: INFO: main : Stage Data Ingestion stage Completed]
+[2026-02-12 02:24:28,375: INFO: main : stage Data Ingestion stage initiated]
+[2026-02-12 02:24:28,388: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:24:28,388: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:24:28,388: INFO: common : created directory at: artifacts]
+[2026-02-12 02:24:28,388: INFO: common : created directory at: artifacts/data_ingestion]
+[2026-02-12 02:24:28,388: INFO: data_ingestion : File already exits]
+[2026-02-12 02:24:28,537: INFO: main : Stage Data Ingestion stage Completed]
+[2026-02-12 02:24:28,537: INFO: main : stage Data Transformation stage initiated]
+[2026-02-12 02:24:28,537: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 02:24:28,537: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 02:24:28,537: INFO: common : created directory at: artifacts]
+[2026-02-12 02:24:28,537: INFO: common : created directory at: artifacts/data_transformation]
+[2026-02-12 02:24:29,029: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:24:29,081: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:24:29,389: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 02:24:29,443: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 02:24:29,756: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-02-12 02:24:30,059: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-02-12 02:24:39,380: INFO: main : Stage Data Transformation stage Completed]

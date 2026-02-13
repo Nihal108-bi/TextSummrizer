@@ -178,3 +178,246 @@ OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset
 [2026-02-12 02:24:29,756: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
 [2026-02-12 02:24:30,059: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
 [2026-02-12 02:24:39,380: INFO: main : Stage Data Transformation stage Completed]
+[2026-02-12 03:38:05,232: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 03:38:05,244: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 03:38:05,249: INFO: common : created directory at: artifacts]
+[2026-02-12 03:38:41,386: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 03:38:41,389: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 03:38:41,391: INFO: common : created directory at: artifacts]
+[2026-02-12 03:41:34,926: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 03:41:34,932: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 03:41:34,934: INFO: common : created directory at: artifacts]
+[2026-02-12 03:45:37,509: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 03:45:37,514: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 03:45:37,516: INFO: common : created directory at: artifacts]
+[2026-02-12 03:47:50,806: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 03:47:50,815: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 03:47:50,818: INFO: common : created directory at: artifacts]
+[2026-02-12 11:59:29,532: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 11:59:29,538: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 11:59:29,542: INFO: common : created directory at: artifacts]
+[2026-02-12 11:59:29,542: INFO: common : created directory at: artifacts/model_trainer]
+[2026-02-12 12:04:18,999: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 12:04:19,006: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 12:04:19,008: INFO: common : created directory at: artifacts]
+[2026-02-12 12:04:19,010: INFO: common : created directory at: artifacts/model_trainer]
+[2026-02-12 12:07:50,721: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 12:07:50,725: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 12:07:50,727: INFO: common : created directory at: artifacts]
+[2026-02-12 12:07:50,727: INFO: common : created directory at: artifacts/model_trainer]
+[2026-02-12 12:07:51,249: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:07:51,275: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:07:51,592: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:07:51,621: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:07:51,887: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:07:52,152: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-02-12 12:07:52,919: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:07:52,955: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:07:53,298: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:07:53,556: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:07:53,806: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"]
+[2026-02-12 12:07:54,135: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/xet-read-token/40d588fdab0cc077b80d950b300bf66ad3c75b92 "HTTP/1.1 200 OK"]
+[2026-02-12 12:08:28,500: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:08:28,506: WARNING: _http : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.]
+[2026-02-12 12:08:28,762: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail "HTTP/1.1 200 OK"]
+[2026-02-12 12:08:29,413: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/commits/main "HTTP/1.1 200 OK"]
+[2026-02-12 12:08:29,806: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/discussions?p=0 "HTTP/1.1 200 OK"]
+[2026-02-12 12:08:30,241: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/commits/refs%2Fpr%2F12 "HTTP/1.1 200 OK"]
+[2026-02-12 12:08:30,565: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/refs%2Fpr%2F12/model.safetensors.index.json "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:08:31,037: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/refs%2Fpr%2F12/model.safetensors "HTTP/1.1 302 Found"]
+[2026-02-12 12:08:31,342: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/xet-read-token/7db4e727842ad86cc5cdfeaef4d14c6fb2b46511 "HTTP/1.1 200 OK"]
+[2026-02-12 12:08:55,413: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:08:55,473: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/generation_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:08:55,746: INFO: _client : HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/generation_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:13,484: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 12:13:13,494: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 12:13:13,497: INFO: common : created directory at: artifacts]
+[2026-02-12 12:13:13,501: INFO: common : created directory at: artifacts/model_trainer]
+[2026-02-12 12:13:13,936: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:13:13,971: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:14,245: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:13:14,291: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:14,576: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:13:14,921: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:15,585: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:13:15,619: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:15,884: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:13:16,166: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:17,293: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/commits/main "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:17,636: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/discussions?p=0 "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:17,983: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/commits/refs%2Fpr%2F12 "HTTP/1.1 200 OK"]
+[2026-02-12 12:13:18,472: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/refs%2Fpr%2F12/model.safetensors.index.json "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:13:18,769: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/refs%2Fpr%2F12/model.safetensors "HTTP/1.1 302 Found"]
+[2026-02-12 12:13:38,674: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:13:38,732: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/generation_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:51,583: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-12 12:27:51,591: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-12 12:27:51,594: INFO: common : created directory at: artifacts]
+[2026-02-12 12:27:51,596: INFO: common : created directory at: artifacts/model_trainer]
+[2026-02-12 12:27:52,055: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:27:52,110: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:52,422: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:27:52,426: WARNING: _http : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.]
+[2026-02-12 12:27:52,479: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/tokenizer_config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:52,790: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:27:53,091: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:53,760: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:27:53,811: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/config.json "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:54,173: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:27:55,105: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:55,593: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/commits/main "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:55,970: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/discussions?p=0 "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:56,367: INFO: _client : HTTP Request: GET https://huggingface.co/api/models/google/pegasus-cnn_dailymail/commits/refs%2Fpr%2F12 "HTTP/1.1 200 OK"]
+[2026-02-12 12:27:56,836: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/refs%2Fpr%2F12/model.safetensors.index.json "HTTP/1.1 404 Not Found"]
+[2026-02-12 12:27:57,436: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/refs%2Fpr%2F12/model.safetensors "HTTP/1.1 302 Found"]
+[2026-02-12 12:28:18,064: INFO: _client : HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"]
+[2026-02-12 12:28:18,096: INFO: _client : HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/generation_config.json "HTTP/1.1 200 OK"]
+[2026-02-13 16:02:48,874: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-13 16:02:48,888: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-13 16:02:48,895: INFO: common : created directory at: artifacts]
+[2026-02-13 16:02:48,895: INFO: common : created directory at: artifacts/model_evaluation]
+[2026-02-13 16:05:36,497: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-13 16:05:36,503: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-13 16:05:36,506: INFO: common : created directory at: artifacts]
+[2026-02-13 16:05:36,508: INFO: common : created directory at: artifacts/model_evaluation]
+[2026-02-13 16:09:43,574: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-13 16:09:43,582: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-13 16:09:43,584: INFO: common : created directory at: artifacts]
+[2026-02-13 16:09:43,586: INFO: common : created directory at: artifacts/model_evaluation]
+[2026-02-13 16:12:13,017: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-13 16:12:13,029: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-13 16:12:13,039: INFO: common : created directory at: artifacts]
+[2026-02-13 16:12:13,055: INFO: common : created directory at: artifacts/model_evaluation]
+[2026-02-13 18:09:25,942: INFO: server : Started server process [6188]]
+[2026-02-13 18:09:25,945: INFO: on : Waiting for application startup.]
+[2026-02-13 18:09:25,945: INFO: on : Application startup complete.]
+[2026-02-13 18:09:25,947: INFO: server : Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2026-02-13 18:11:55,464: INFO: server : Shutting down]
+[2026-02-13 18:11:55,570: INFO: on : Waiting for application shutdown.]
+[2026-02-13 18:11:55,570: INFO: on : Application shutdown complete.]
+[2026-02-13 18:11:55,570: INFO: server : Finished server process [6188]]
+[2026-02-13 18:12:59,907: INFO: server : Started server process [17816]]
+[2026-02-13 18:12:59,909: INFO: on : Waiting for application startup.]
+[2026-02-13 18:12:59,910: INFO: on : Application startup complete.]
+[2026-02-13 18:13:35,917: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-13 18:13:36,206: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-13 18:13:36,258: INFO: common : created directory at: artifacts]
+[2026-02-13 18:13:36,258: INFO: common : created directory at: artifacts/model_evaluation]
+[2026-02-13 18:13:38,767: ERROR: h11_impl : Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\MLOPS\TextSummrizer\.\app.py", line 41, in predict_route
+    raise e
+  File "D:\MLOPS\TextSummrizer\.\app.py", line 38, in predict_route
+    text = obj.predict(text)
+  File "D:\MLOPS\TextSummrizer\.\src\TextSummarizer\pipeline\predicition_pipeline.py", line 16, in predict
+    pipe = pipeline("summarization", model=self.config.model_path,tokenizer=tokenizer)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\transformers\pipelines\__init__.py", line 777, in pipeline
+    normalized_task, targeted_task, task_options = check_task(task)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\transformers\pipelines\__init__.py", line 381, in check_task
+    return PIPELINE_REGISTRY.check_task(task)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\transformers\pipelines\base.py", line 1356, in check_task
+    raise KeyError(
+KeyError: "Unknown task summarization, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'image-to-image', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'question-answering', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'visual-question-answering', 'vqa', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection', 'translation_XX_to_YY']"
+[2026-02-13 18:19:51,285: INFO: server : Started server process [2144]]
+[2026-02-13 18:19:51,285: INFO: on : Waiting for application startup.]
+[2026-02-13 18:19:51,285: INFO: on : Application startup complete.]
+[2026-02-13 18:20:37,735: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-13 18:20:37,742: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-13 18:20:37,744: INFO: common : created directory at: artifacts]
+[2026-02-13 18:20:37,746: INFO: common : created directory at: artifacts/model_evaluation]
+[2026-02-13 18:20:40,326: ERROR: h11_impl : Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\MLOPS\TextSummrizer\.\app.py", line 41, in predict_route
+    raise e
+  File "D:\MLOPS\TextSummrizer\.\app.py", line 38, in predict_route
+    text = obj.predict(text)
+  File "D:\MLOPS\TextSummrizer\.\src\TextSummarizer\pipeline\predicition_pipeline.py", line 16, in predict
+    pipe = pipeline("summarization", model=self.config.model_path,tokenizer=tokenizer, framework="pt")
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\transformers\pipelines\__init__.py", line 777, in pipeline
+    normalized_task, targeted_task, task_options = check_task(task)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\transformers\pipelines\__init__.py", line 381, in check_task
+    return PIPELINE_REGISTRY.check_task(task)
+  File "D:\MLOPS\TextSummrizer\summrizer\lib\site-packages\transformers\pipelines\base.py", line 1356, in check_task
+    raise KeyError(
+KeyError: "Unknown task summarization, available tasks are ['any-to-any', 'audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-text-to-text', 'image-to-image', 'keypoint-matching', 'mask-generation', 'ner', 'object-detection', 'question-answering', 'sentiment-analysis', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'token-classification', 'video-classification', 'visual-question-answering', 'vqa', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection', 'translation_XX_to_YY']"
+[2026-02-13 18:22:48,858: INFO: server : Shutting down]
+[2026-02-13 18:22:48,969: INFO: on : Waiting for application shutdown.]
+[2026-02-13 18:22:48,969: INFO: on : Application shutdown complete.]
+[2026-02-13 18:22:48,974: INFO: server : Finished server process [2144]]
+[2026-02-13 18:27:25,369: INFO: server : Started server process [1292]]
+[2026-02-13 18:27:25,382: INFO: on : Waiting for application startup.]
+[2026-02-13 18:27:25,386: INFO: on : Application startup complete.]
+[2026-02-13 18:28:12,117: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-13 18:28:12,139: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-13 18:28:12,143: INFO: common : created directory at: artifacts]
+[2026-02-13 18:28:12,147: INFO: common : created directory at: artifacts/model_evaluation]
+[2026-02-13 18:31:25,352: INFO: common : yaml file: config\config.yaml loaded successfully]
+[2026-02-13 18:31:25,374: INFO: common : yaml file: params.yaml loaded successfully]
+[2026-02-13 18:31:25,379: INFO: common : created directory at: artifacts]
+[2026-02-13 18:31:25,382: INFO: common : created directory at: artifacts/model_evaluation]
+[2026-02-13 18:34:46,300: INFO: server : Shutting down]
+[2026-02-13 18:34:46,480: INFO: on : Waiting for application shutdown.]
+[2026-02-13 18:34:46,495: INFO: on : Application shutdown complete.]
+[2026-02-13 18:34:46,497: INFO: server : Finished server process [1292]]
